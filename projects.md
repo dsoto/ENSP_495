@@ -103,3 +103,14 @@ mcmaster
 ## Battery charge and discharge monitor
 
 Uses DAQ to measure current and voltage being supplied to a battery.
+
+## Downloading NOAA Data
+
+Pull data from NOAA (NCDC, QCLCD, USRCRN) and plot, calculate degree
+days, peak sun hours.
+
+## Install wireless internet connected weather station
+
+Install commercially available weather station near ETC to allow for
+real time monitoring of weather conditions and correlation with building
+performance.  Possible product: Davis Instruments Weather Station.
