@@ -23,3 +23,6 @@ three simple components. As depicted below three elements are used in
 this test: copper wire, a nail, and a magnet. To measure the voltage
 that is produced from this set up you must first strip the ends of the
 copper wire and attach either a volt meter or oscilloscope probes.
+
+![](./figures/experiment-3.jpg)
+
