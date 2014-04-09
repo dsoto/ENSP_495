@@ -1,28 +1,25 @@
 # Understanding the Basics of a Generator
-
-Using simple components that can purchased at a local hardware store
-anyone has the capability to produce or create their own power. To be
-able to create your own power one must first understand the basics of a
-single phase generator. The most intuitive way to comprehend the
-characteristics of a generator is through hands on testing and
-experimentation.  In this report we will be examining three different
-setups that will in detail describe the interaction of the different
-components, the significance of the numbers found on the oscilloscope,
-Faradays Law, and unforeseen issues that may arise while testing. The
-three setups include: a simple nail wrapped in copper wire, a single
-phase generator that only produces positive power, and a single phase
-generator that produces both positive and negative power. Each set up
-will build off of the last and demonstrate different characteristics of
-a generator.
-
+Using simple components that can purchased at a local hardware store anyone has the capability to produce or create their own power. To be able to create your own power one must first understand the basics of a single phase generator. The most intuitive way to comprehend the characteristics of a generator is through hands on testing and experimentation.  In this report we will be examining three different setups that will in detail describe the interaction of the different components, the significance of the numbers found on the oscilloscope, Faradays Law, and unforeseen issues that may arise while testing. The three setups include: a simple nail wrapped in copper wire, a single phase generator that only produces positive power, and a single phase generator that produces both positive and negative power. Each set up will build off of the last and demonstrate different characteristics of a generator. 
 # Experiment 1
+The first set up of a nail wrapped in copper wire will introduce the possibilities and power that can be generated with three simple components. As depicted below three elements are used for this test: copper wire, a nail, and a magnet. To measure the voltage that is produced from this setup you must first strip the ends of the copper wire and attach either a volt meter or oscilloscope probes.  
+![](./pictures/Nail.png)
+To produce a voltage you simply move the magnet swiftly past the head of the nail. The magnetic field coming off the magnet will interact with the coils of wire wrapped around the nail and produce a quick spike in voltage. According to Faraday’s law there are three components that affect the power produced: the number of coils, the strength of the magnet (this can be effected by how close to the magnet the coils are presented), and the speed at which the magnet rotates past the coils of wire. In the oscilloscope screen capture below there are two spikes that occur approximately three second seconds apart.    
 
-The goal of the first set up of having a nail wrapped in copper wire is
-to introduce the possibilities and power that can be generated from
-three simple components. As depicted below three elements are used in
-this test: copper wire, a nail, and a magnet. To measure the voltage
-that is produced from this set up you must first strip the ends of the
-copper wire and attach either a volt meter or oscilloscope probes.
+At the two different points in time the spikes occurred the magnet depicted in the image above was passed by the coil of wire wrapped around the nail.  Looking at the two spikes they both have a positive and negative peak value. The reason this occurs is because magnets have a positive and negative poles that effect the direction of the voltage. If you look closely at the two spikes it is apparent that in the first spike the voltage goes positive then dips negative. Then at the second spike the voltage goes negative first then jumps positive. The reason this happens is because when testing, the direction the magnet approached the coils was cause the voltage spike to come in a different order. The importance of this set up is to show the simplicity and the few materials required to establish a voltage.
+# Experiment 2
+In the second experiment a different set up is used to display the effects of a generator that only produces positive power.  This setup uses the same principles as experiment 1 but allows for more versatility and practical applications. The set up depicted below uses two modified paperclips as stands for the coils and has a magnet placed below the coil of wires. The wire gauge will need to be much thicker than experiment one because the coils need to support their own weight. The image below is the set up that was used for experiments 2 and 3 but there are other setups that may perform more optimally. 
+ 
+For this setup the two ends to the coils of wire are crucial to showing the desired output. To get the predicted output one side of the supporting wires will have all of the enamel removed to exposing the copper wire. On the other side of the support wire remove only half of the enamel exposing 50 percent of the copper to the paper clip. Once the magnets have been placed below the coils of wire attach a probe to the paper clips. With a flick or swipe of the finger rotate the coils of wire. The following image is what is displayed on the oscilloscope.  
+ 
+As presented in the screenshot 50 percent of the time the wire is exposed to the paper clip and the other half there is no contact between the paperclip and copper wire.  The time the paperclip and the copper are not touching large amounts of noise are apparent and are indicated by the large spikes in the waveform. When zooming in on the noise a perfect sine wave appears as depicted below as seen below.
+ 
+This sine wave appears because the when the copper and paperclip are not touching while rotating there is no connection between the probes and it picks up surrounding signals. From this experiment we can see that you can create a generator that only produces positive or negative power depending on the direction.
+
+# Experiment 3
+In the third and final experiment we will be taking the same set up seen in experiment 2 but instead of removing 50 percent of the enamel the wire will be completely exposed. Removing the wire cover will change both the noise seen in experiment 2 but also produce an AC motor. Attach the probes in the same location and spin the copper wire. The oscilloscope screen shot is depicted below. 
+ 
+Although there still is a fair amount of noise, a waveform is appears showing both positive and negative voltage. You also clearly see each rotation and the peaks are indicated by the arrows. Each section on the x-axis represents .5 seconds and from this you can see the wire is spun at 5 rotations per second. The screen capture also shows after the initial flick on the wire the rotations per second begin to decline until there is no rotation.  In a perfect scenario the wave form will be sinusoidal and maintain a constant rate of rotation.
+
 
 ![](./figures/experiment-3.jpg)
 
